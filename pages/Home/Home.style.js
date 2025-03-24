@@ -35,12 +35,17 @@ export const s = StyleSheet.create({
 
   forecast: {
     height: "200",
+    padding: 10,
     flexDirection: "row",
     justifyContent: "space-evenly",
     alignItems: "center",
-    borderWidth: 2,
     borderRadius: 10,
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "rgba(255, 255, 255, 0.75)",
+  },
+
+  forecastContent: {
+    flexDirection: "column",
+    alignItems: "center",
   },
 
   bonusInfo: {
@@ -51,7 +56,7 @@ export const s = StyleSheet.create({
     justifyContent: "space-evenly",
     alignItems: "center",
     borderRadius: 10,
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "rgba(255, 255, 255, 0.75)",
   },
 
   bonusContent: {

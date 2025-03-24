@@ -24,12 +24,16 @@ function Home() {
                 //Sezione Informazioni Bonus
                 <View style={s.bonusInfo}>
                     <View style={s.bonusContent}>
-                        <Text style={{fontSize: 14, fontWeight: 'bold'}}>Tramonto</Text>
-                        <Text>19:45</Text>
+                        <Text style={{fontSize: 14, fontWeight: 'bold'}}>Max</Text>
+                        <Text>25°</Text>
                     </View>
                     <View style={s.bonusContent}>
-                        <Text style={{fontSize: 14, fontWeight: 'bold'}}>Vento</Text>
-                        <Text>24 knt</Text>
+                        <Text style={{fontSize: 14, fontWeight: 'bold'}}>Min</Text>
+                        <Text>13°</Text>
+                    </View>
+                    <View style={s.bonusContent}>
+                        <Text style={{fontSize: 14, fontWeight: 'bold'}}>Umidità</Text>
+                        <Text>30%</Text>
                     </View>
                     <View style={s.bonusContent}>
                         <Text style={{fontSize: 14, fontWeight: 'bold'}}>Qualità dell'aria</Text>
@@ -37,9 +41,17 @@ function Home() {
                     </View>
                 </View>
 
+                <View>
+                    <Text style={{fontSize: 14, fontWeight: 'bold'}}>Prossimi 5 giorni</Text>
+                </View>
             // Sezione del forecast Meteo
                 <View style={s.forecast}>
-
+                    <View style={s.forecastContent}>
+                        <Text>Icona</Text>
+                        <Text style={{fontSize: 14, fontWeight: 'bold'}}>12°</Text>
+                        <Text style={{fontSize: 14, fontWeight: 'bold'}}>25°</Text>
+                        <Text style={{fontSize: 14, fontWeight: 'bold', marginTop: 10}}>22/03/2025</Text>
+                    </View>
                 </View>
             </View>
     );
